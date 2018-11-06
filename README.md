@@ -1,16 +1,18 @@
 # Prerequisite Certifiation: SFDX for ISVs (Workshop Two)
 
-In order to certify that you've completed the prerequisites for the second **Salesforce DX for ISVs Workshop**, you must take the following steps.
+In order to certify that you've completed the prerequisites for the second **Salesforce DX for ISVs Workshop**, please complete the five steps as presented in this document.
 
-> :warning:**IMPORTANT:** You must complete the steps as presented in this document **without taking shortcuts** that might be apparent to experienced users. Doing so will allow you to surface any technical issues with your local setup and GitHub account.  Finding and fixing these issues ahead of time will help you get the most out of the workshop.
+> :warning:**IMPORTANT:** You must complete the steps as presented in this document **without taking shortcuts** that might be apparent to experienced users. Completing the steps as presented will help to surface any technical issues with your local and/or GitHub account setup.  Finding and fixing these issues ahead of time will help you get the most out of the workshop.
 
 ## Step One: Make sure you are logged into GitHub.com
 
-Go to https://github.com/login and log in with the GitHub account that you plan on using with the **Salesforce DX for ISVs Workshop**.
+If you're not already logged into GitHub, go to https://github.com/login and log in with the GitHub account that you plan on using with the **Salesforce DX for ISVs Workshop**.
 
 ## Step Two: Fork the `sfdx-isv/travel-expenses` repository
 
-After logging into GitHub, you will need to make a personal copy of the `sfdx-isv/travel-expenses` repository by forking it.  
+After logging into GitHub, you will need to make a personal copy of the `sfdx-isv/travel-expenses` repository by forking it.
+
+To fork the the `sfdx-isv/travel-expenses` repository, follow these steps.
 
 ### Use the GitHub Website to fork the `sfdx-isv/travel-expenses` repository:
 
@@ -46,11 +48,14 @@ To clone your fork of the `sfdx-isv/travel-expenses` repository, follow these st
 ![Get the HTTPS URI of your Forked Repository](/images/W00_U02_copy-travel-expenses-fork-repo-url.png)
 
 
-### Execute this command to clone your forked repository:
+### Execute the `git clone` command using your terminal or command prompt:
 ```bash
 git clone  PASTE_YOUR_GITHUB_URI_HERE  my-travel-expenses-fork
 ```
-1. Type the `git clone` command at the command line, **making sure to use the HTTPS URI of your forked repository**. The screenshot below shows the URI of the forked repository belonging to the developer "Jessie Daniels".
+1. Type the `git clone` command at the command line.
+    * **IMPORTANT:** Make sure to use the HTTPS URI of your forked repository in place of `PASTE_YOUR_GITHUB_URI_HERE`.
+    * **IMPORTANT:** Remember to specify the local folder name `my-travel-expenses-fork` **after** your GitHub URI to ensure that your forked repository is cloned into a local folder using that name.
+    * The screenshot shows the what this commannd and its results look like when used by the developer "Jessie Daniels".
 
 ![Use 'git clone' to get a local copy of your forked repository](/images/W00_U02_git-clone-forked-repo-success.png)
 
@@ -65,7 +70,8 @@ To do this, follow these steps.
 
 1. Using VS Code, open the folder containing your cloned repository (`my-travel-expenses-fork`).
 2. In the VS Code Explorer, double-click on the file `CERTIFICATION.md` to open it.
-3. Observe the last row of the markdown table (line 11). In the next step you will be editing this line.
+3. Observe the last row of the markdown table (line 11). 
+    * In the next step you will be editing this line.
 
 ![Open the file CERTIFICATION.md in VS Code](/images/W00_U02_open-certification-md-in-vs-code.png)
 
