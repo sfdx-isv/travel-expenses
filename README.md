@@ -52,12 +52,23 @@ git clone  PASTE_YOUR_GITHUB_URI_HERE  my-travel-expenses-fork
 
 ![Use 'git clone' to get a local copy of your forked repository](/images/W00_U02_git-clone-forked-repo-success.png)
 
-### Step Content TBA
+### Open the file `CERTIFICATION.md` in VS Code
 
-1. Content TBA
-2. Content TBA
-3. Content TBA
+1. Using VS Code, open the folder containing your cloned repository (`my-travel-expenses-fork`).
+2. In the VS Code Explorer, double-click on the file `CERTIFICATION.md` to open it.
+3. Observe the last row of the markdown table (line 11). In the next step you will be editing this line.
 
-![Get the HTTPS URI of your Forked Repository](/images/W00_U02_open-certification-md-in-vs-code.png)
+![Open the file CERTIFICATION.md in VS Code](/images/W00_U02_open-certification-md-in-vs-code.png)
+
+### Edit the file `CERTIFICATION.md`, then stage, commit, and push the changes.
+
+1. Substitute your name, GitHub username, and today's date for the values `**YOUR NAME HERE**`, `**YOUR GITHUB USERNAME HERE**`, and `DATE YOU ADDED YOUR NAME`.  **Remember to save your changes to this file.**
+2. Open the VS Code integrated terminal by pressing `CMD+J` (`CTRL+J` on Windows) and clicking on the **TERMINAL** tab in the panel.
+3. Execute the command `git add -A` to stage your change
+4. Execute the command `git status` to verify that `CERTIFICATION.md` is staged for commit.
+5. Execute the command `git commit -m "Update CERTIFICATION.md - YOUR_FIRST_AND_LAST_NAME"` - Make sure that you substitute your own first and last name for `YOUR_FIRST_AND_LAST_NAME`.
+
+![Get the HTTPS URI of your Forked Repository](/images/W00_U02_edit-and-commit-certification-md.png)
+
 
 
