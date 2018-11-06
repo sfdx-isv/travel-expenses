@@ -98,24 +98,27 @@ To do this, follow these steps.
 
 ### Verify the details of your Pull Request.
 
-1. Clicking the **New pull request** button from the previous step will take you to the **Comparing Changes** tool in the `sfdx-isv/travel-expenses` base repository.
-2. Verify that you are asking to merge changes **FROM** your forked `travel-expenses` repository (on the right) **TO** the base `sfdx-isv/travel-expenses` repository (on the left).
-3. Near the bottom of the page, you'll see the list of files that were changed in your forked repository.  You should see a message that you have **1 changed file**, and you should be able to see the details of the change you made to `CERTIFICATION.md`.
+1. Clicking the **New pull request** button on the previous step opens the **Compare Tool** in the `sfdx-isv/travel-expenses` base repository.
+2. Verify that you are comparing changes **FROM** your forked `travel-expenses` repository (on the right) **TO** the base `sfdx-isv/travel-expenses` repository (on the left).
+3. Near the bottom of the page, you'll see a list of files that are different between the forked and base repositories.  
+    * You should see a message that you have **1 changed file**,
+    * You should also be able to see the details of the change you made to `CERTIFICATION.md`.
+4. If everything looks right, click the **Create pull request** button.
 
 ![Verify the details of your Pull Request](/images/W00_U02_compare-changes-before-creating-pull-request.png)
 
 ### Add a subject and comments for your Pull Request, then create it.
 
-1. Content TBA
-2. Content TBA
-3. Content TBA
+1. Add the subject `Prerequisite Certification - YOUR_FIRST_AND_LAST_NAME_HERE`.  Make sure to replace the placeholder text with your actual first and last name.
+2. Add a comment explaining that you are certifying your completion of the prerequisites for **Salesforce DX for ISVs - Workshop Two**.
+3. Click the **Create pull request** button.
 
 ![Add a subject and comments for your Pull Request before creating it](/images/W00_U02_finalize-details-and-open-the-pull-request.png)
 
 ### Verify that your Pull Request was created successfully.
 
-1. Content TBA
-2. Content TBA
-3. Content TBA
+1. Make sure you're in the base repository, `sfdx-isv/travel-expenses`.
+2. Open the **Pull requests** tab.
+3. Look for the Pull Request that you created (ie. the one that has a title with your name in it).
 
 ![Verify that your Pull Request was created successfully](/images/W00_U02_confirm-the-creation-of-your-pull-request.png)
