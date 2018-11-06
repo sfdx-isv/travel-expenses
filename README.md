@@ -6,13 +6,13 @@ In order to certify that you've completed the prerequisites for the second **Sal
 
 ## Step One: Make sure you are logged into GitHub.com
 
-If you're not already logged into GitHub, go to https://github.com/login and log in with the GitHub account that you plan on using with the **Salesforce DX for ISVs Workshop**.
+If you're not already logged in to GitHub, go to https://github.com/login and log in with the GitHub account that you plan on using with the **Salesforce DX for ISVs Workshop**.
 
 ## Step Two: Fork the `sfdx-isv/travel-expenses` repository
 
 After logging into GitHub, you will need to make a personal copy of the `sfdx-isv/travel-expenses` repository by forking it.
 
-To fork the the `sfdx-isv/travel-expenses` repository, follow these steps.
+To fork the `sfdx-isv/travel-expenses` repository, follow these steps.
 
 ### Use the GitHub Website to fork the `sfdx-isv/travel-expenses` repository:
 
@@ -55,7 +55,7 @@ git clone  PASTE_YOUR_GITHUB_URI_HERE  my-travel-expenses-fork
 1. Type the `git clone` command at the command line.
     * **IMPORTANT:** Make sure to use the HTTPS URI of your forked repository in place of `PASTE_YOUR_GITHUB_URI_HERE`.
     * **IMPORTANT:** Remember to specify the local folder name `my-travel-expenses-fork` **after** your GitHub URI to ensure that your forked repository is cloned into a local folder using that name.
-    * The screenshot shows the what this commannd and its results look like when used by the developer "Jessie Daniels".
+    * The screenshot shows the what this command and its results look like when used by the developer "Jessie Daniels".
 
 ![Use 'git clone' to get a local copy of your forked repository](/images/W00_U02_git-clone-forked-repo-success.png)
 
