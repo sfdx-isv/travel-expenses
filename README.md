@@ -48,13 +48,16 @@ To clone your fork of the **travel-expenses** repository, follow these steps.
 ```bash
 git clone  PASTE_YOUR_GITHUB_URI_HERE  my-travel-expenses-fork
 ```
-1. Make sure to use the URI of your forked repository. The screenshot below shows the URI of the forked repository belonging to an imaginary developer, Jessie Daniels.
+1. Type the `git clone` command at the command line, **making sure to use the HTTPS URI of your forked repository**. The screenshot below shows the URI of the forked repository belonging to an imaginary developer, Jessie Daniels.
 
 ![Use 'git clone' to get a local copy of your forked repository](/images/W00_U02_git-clone-forked-repo-success.png)
 
+### Step Content TBA
 
-1. Create a GitHub Account, then make sure you're logged into GitHub.
-2. Navigate to this repository (https://github.com/sfdx-isv/travel-expenses)
-3. 
+1. Content TBA
+2. Content TBA
+3. Content TBA
+
+![Get the HTTPS URI of your Forked Repository](/images/W00_U02_open-certification-md-in-vs-code.png)
 
 
