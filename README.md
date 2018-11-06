@@ -1,4 +1,4 @@
-# Prerequisite Certifiation: SFDX for ISVs (Workshop Two)
+# Prerequisite Certification: SFDX for ISVs (Workshop Two)
 
 In order to certify that you've completed the prerequisites for the second **Salesforce DX for ISVs Workshop**, please complete the five steps as presented in this document.
 
