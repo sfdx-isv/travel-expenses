@@ -79,10 +79,11 @@ To do this, follow these steps.
 
 1. Substitute your name, GitHub username, and today's date for the values `**YOUR NAME HERE**`, `**YOUR GITHUB USERNAME HERE**`, and `DATE YOU ADDED YOUR NAME`.
     * **IMPORTANT:** Remember to save your changes to this file.
-2. Open the VS Code integrated terminal by pressing `CMD+J` (`CTRL+J` on Windows) and clicking on the **TERMINAL** tab in the panel.
-3. Execute the command `git add -A` to stage your change
-4. Execute the command `git status` to verify that `CERTIFICATION.md` is staged for commit.
-5. Execute the command `git commit -m "Update CERTIFICATION.md - YOUR_FIRST_AND_LAST_NAME"` 
+2. Open the VS Code Developer Panel by pressing `CMD+J` (`CTRL+J` on Windows)
+3. Once the panel is open, click on the **TERMINAL** tab to get a CLI.
+4. Execute the command `git add -A` to stage your change
+5. Execute the command `git status` to verify that `CERTIFICATION.md` is staged for commit.
+6. Execute the command `git commit -m "Update CERTIFICATION.md - YOUR_FIRST_AND_LAST_NAME"` 
     * **IMPORTANT:** Make sure that you substitute your own first and last name for `YOUR_FIRST_AND_LAST_NAME`.
 
 ![Edit the file CERTIFICATION.md then stage and commit your changes](/images/W00_U02_edit-and-commit-certification-md.png)
