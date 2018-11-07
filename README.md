@@ -1,4 +1,4 @@
-# Prerequisite Certifiation: SFDX for ISVs (Workshop Two)
+# Prerequisite Certification: SFDX for ISVs (Workshop Two)
 
 In order to certify that you've completed the prerequisites for the second **Salesforce DX for ISVs Workshop**, please complete the five steps as presented in this document.
 
@@ -6,13 +6,13 @@ In order to certify that you've completed the prerequisites for the second **Sal
 
 ## Step One: Make sure you are logged into GitHub.com
 
-If you're not already logged into GitHub, go to https://github.com/login and log in with the GitHub account that you plan on using with the **Salesforce DX for ISVs Workshop**.
+If you're not already logged in to GitHub, go to https://github.com/login and log in with the GitHub account that you plan on using with the **Salesforce DX for ISVs Workshop**.
 
 ## Step Two: Fork the `sfdx-isv/travel-expenses` repository
 
 After logging into GitHub, you will need to make a personal copy of the `sfdx-isv/travel-expenses` repository by forking it.
 
-To fork the the `sfdx-isv/travel-expenses` repository, follow these steps.
+To fork the `sfdx-isv/travel-expenses` repository, follow these steps.
 
 ### Use the GitHub Website to fork the `sfdx-isv/travel-expenses` repository:
 
@@ -55,7 +55,7 @@ git clone  PASTE_YOUR_GITHUB_URI_HERE  my-travel-expenses-fork
 1. Type the `git clone` command at the command line.
     * **IMPORTANT:** Make sure to use the HTTPS URI of your forked repository in place of `PASTE_YOUR_GITHUB_URI_HERE`.
     * **IMPORTANT:** Remember to specify the local folder name `my-travel-expenses-fork` **after** your GitHub URI to ensure that your forked repository is cloned into a local folder using that name.
-    * The screenshot shows the what this commannd and its results look like when used by the developer "Jessie Daniels".
+    * The screenshot shows the what this command and its results look like when used by the developer "Jessie Daniels".
 
 ![Use 'git clone' to get a local copy of your forked repository](/images/W00_U02_git-clone-forked-repo-success.png)
 
@@ -75,7 +75,7 @@ To do this, follow these steps.
 
 ![Open the file CERTIFICATION.md in VS Code](/images/W00_U02_open-certification-md-in-vs-code.png)
 
-### Edit the file `CERTIFICATION.md`, then stage, commit, and push the changes:
+### Edit the file `CERTIFICATION.md`, then stage and commit your changes:
 
 1. Substitute your name, GitHub username, and today's date for the values `**YOUR NAME HERE**`, `**YOUR GITHUB USERNAME HERE**`, and `DATE YOU ADDED YOUR NAME`.
     * **IMPORTANT:** Remember to save your changes to this file.
@@ -85,8 +85,16 @@ To do this, follow these steps.
 5. Execute the command `git commit -m "Update CERTIFICATION.md - YOUR_FIRST_AND_LAST_NAME"` 
     * **IMPORTANT:** Make sure that you substitute your own first and last name for `YOUR_FIRST_AND_LAST_NAME`.
 
-![Edit the file CERTIFICATION.md then commit and push changes](/images/W00_U02_edit-and-commit-certification-md.png)
+![Edit the file CERTIFICATION.md then stage and commit your changes](/images/W00_U02_edit-and-commit-certification-md.png)
 
+### Push your changes to GitHub:
+
+1. Execute the command `git status`
+    * You should see that your local branch is ahead of `origin/master` by 1 commit.
+2. Execute the command `git push origin master`
+    * You should see output that is similar to the screenshot, below.
+
+![Push your changes to GitHub](/images/W00_U02_execute-git-status-and-git-push.png)
 
 ## Step Five: Create a Pull Request to merge your forked repository with the base repository
 
