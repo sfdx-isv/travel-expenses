@@ -8,4 +8,4 @@ the **YOUR NAME HERE** row with your own information.
 | Name                 | GitHub Username                | Date Added                   |
 |----------------------|--------------------------------|------------------------------|
 | Vivek M. Chawla      | VivekMChawla                   | November 5, 2018             |
-| **YOUR NAME HERE**   | **YOUR GITHUB USERNAME HERE**  | **DATE YOU ADDED YOUR NAME** |
+| Laura Kulikauskaite  | LauraKuli                      | November 8, 2018             |
