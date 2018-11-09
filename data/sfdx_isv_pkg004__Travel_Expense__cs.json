@@ -1,0 +1,31 @@
+{
+    "records": [
+        {
+            "attributes": {
+                "type": "sfdx_isv_pkg004__Travel_Expense__c",
+                "referenceId": "sfdx_isv_pkg004__Travel_Expense__cRef1"
+            },
+            "Name": "Dreamforce Hotel and Airfare - 2018",
+            "sfdx_isv_pkg004__Amount__c": 3289.4,
+            "sfdx_isv_pkg004__Approved__c": false
+        },
+        {
+            "attributes": {
+                "type": "sfdx_isv_pkg004__Travel_Expense__c",
+                "referenceId": "sfdx_isv_pkg004__Travel_Expense__cRef2"
+            },
+            "Name": "ISV Team Offsite - 2018",
+            "sfdx_isv_pkg004__Amount__c": 1583.21,
+            "sfdx_isv_pkg004__Approved__c": false
+        },
+        {
+            "attributes": {
+                "type": "sfdx_isv_pkg004__Travel_Expense__c",
+                "referenceId": "sfdx_isv_pkg004__Travel_Expense__cRef3"
+            },
+            "Name": "TrailheaDX Hotel and Airfare - 2018",
+            "sfdx_isv_pkg004__Amount__c": 1985.92,
+            "sfdx_isv_pkg004__Approved__c": false
+        }
+    ]
+}

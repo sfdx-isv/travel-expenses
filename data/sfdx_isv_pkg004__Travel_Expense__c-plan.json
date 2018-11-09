@@ -1,0 +1,10 @@
+[
+    {
+        "sobject": "sfdx_isv_pkg004__Travel_Expense__c",
+        "saveRefs": true,
+        "resolveRefs": false,
+        "files": [
+            "sfdx_isv_pkg004__Travel_Expense__cs.json"
+        ]
+    }
+]
