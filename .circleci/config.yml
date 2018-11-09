@@ -200,7 +200,7 @@ jobs:
                                       -u circle_build_$CIRCLE_BUILD_NUM \
                                       -l RunLocalTests \
                                       -r human \
-                                      -w 10 \
+                                      -w 3 \
                                       -c 
       - run:
           name: Mark all scratch orgs created by this job for deletion
