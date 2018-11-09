@@ -1,7 +1,7 @@
 public with sharing class TravelExpenseDomain {
 
     public TravelExpenseDomain() {
-
+        // This constructor does nothing!
     }
 
     public List<Travel_Expense__c> getAll() {
