@@ -1,0 +1,9 @@
+{
+  "packageDirectories": [
+    { "path": "sfdx-source/sfdx_isv_pkg004", "default": true },
+    { "path": "sfdx-source/unpackaged"}
+  ],
+  "namespace": "sfdx_isv_pkg004",
+  "sfdcLoginUrl": "https://login.salesforce.com",
+  "sourceApiVersion": "44.0"
+}
