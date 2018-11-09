@@ -343,7 +343,8 @@ workflows:
           filters:
             branches:
               only:
-                - non-existant-branch   # Normally, this might be "master". This should be configured after template is customized.
+                - master   # Normally, this might be "master". This should be configured after template is customized.
+                #- non-existant-branch   # Normally, this might be "master". This should be configured after template is customized.
           requires:
             - test-build-1
 
