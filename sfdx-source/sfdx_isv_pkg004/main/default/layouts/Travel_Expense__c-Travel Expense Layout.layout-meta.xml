@@ -14,17 +14,16 @@
                 <behavior>Required</behavior>
                 <field>Amount__c</field>
             </layoutItems>
-            <layoutItems>
-                <behavior>Edit</behavior>
-                <field>Approved__c</field>
-            </layoutItems>
         </layoutColumns>
         <layoutColumns>
             <layoutItems>
                 <behavior>Edit</behavior>
                 <field>OwnerId</field>
             </layoutItems>
-        </layoutColumns>
+            <layoutItems>
+                <behavior>Edit</behavior>
+                <field>Approved__c</field>
+            </layoutItems>        </layoutColumns>
         <style>TwoColumnsTopToBottom</style>
     </layoutSections>
     <layoutSections>
