@@ -17,6 +17,11 @@
         <field>Travel_Expense__c.Approved__c</field>
         <readable>true</readable>
     </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Travel_Expense__c.Status__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
     <hasActivationRequired>false</hasActivationRequired>
     <label>Travel Expenses User</label>
     <license>Salesforce</license>
