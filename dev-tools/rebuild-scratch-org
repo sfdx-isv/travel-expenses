@@ -202,26 +202,25 @@ validateScratchOrgDeletion () {
 # in your rebuild process. For the baseline SFDX-Falcon template it's 4.
 resetStepMsgCounter 5
 
-# STEPS 1 and 2
+# STEP 1
 # Delete the current scratch org.
 deleteScratchOrg
 
-# STEP 3
+# STEP 2
 # Create a new scratch org using the scratch-def.json locally configured for this project.
 createScratchOrg
 
-# STEP 4
+# STEP 3
 # Push metadata to the new Scratch Org.
 pushMetadata
 
-# STEP 5
+# STEP 4
 # Assign any permission sets that were added by your Source Push.
 assignPermset "Travel_Expenses_User"
 
-# STEP 6
-# Import data used during development. You may need to make multiple calls
-# Template for calling this function:
-# importData "$PROJECT_ROOT/data/#DATA_PLAN_JSON#"
+# STEP 5
+# Import data used during development.
+importData "$PROJECT_ROOT/data/sfdx_isv_pkg004__Travel_Expense__c-plan.json"
 
 #
 ##
