@@ -17,7 +17,7 @@ private class TravelExpenseDomainTest {
         List<Travel_Expense__c> retrievedTravelExpenses = txd.getAll();
 
        // Test that the trigger correctly updated the price
-       System.assertEquals(1, retrievedTravelExpenses.size());
+       System.assertEquals(1, retrievedTravelExpenses.size()); 
     }
 }
 
