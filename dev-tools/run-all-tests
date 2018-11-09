@@ -49,16 +49,16 @@ echo \
             --testlevel RunLocalTests \\
             --outputdir ./temp/apex-test-results \\
             --resultformat human \\
-            --synchronous \\
             --codecoverage \\
-            --loglevel error)\n"
+            --wait 3 \\
+            --loglevel error)"
 (cd $PROJECT_ROOT && exec sfdx force:apex:test:run \
                                 --targetusername $SCRATCH_ORG_ALIAS \
                                 --testlevel RunLocalTests \
                                 --outputdir ./temp/apex-test-results \
                                 --resultformat human \
                                 --codecoverage \
-                                --wait 15 \
+                                --wait 3 \
                                 --loglevel error)
 
 
